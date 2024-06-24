@@ -1,11 +1,10 @@
-- Update tab Icon index.html (favicon)
-- Update tab name 
-- Update all of the links 
-- Update text within the home screen
-- Replace CV in the assets folder 
-- Add more logos for light/dark mode
+- Update tab Icon index.html (favicon) X
+- Update tab name X
+- Update all of the links X
+- Update text within the home screen X
+- Replace CV in the assets folder X
+- Add more logos for light/dark mode X
 - Change colors in dark and light mode
-- Change fonts
 - Updater projects to reflect soberstride eg(github link, logo etc etc) 
 - Fill in skills 
 - Watch form linkup video 
