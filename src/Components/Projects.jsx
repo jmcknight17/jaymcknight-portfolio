@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
+import SoberStride from "../assets/SOBERSTRIDE.png";
 import viberr from "../assets/viberr.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
@@ -8,11 +9,12 @@ function Projects() {
       <h1 className="sectionTitle"> Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="github.com"
-          head="SoberStride"
-          summary="Sobriety Application"
+          src={SoberStride}
+          link="https://github.com/jmcknight17/SoberStride"
+          head="SoberStride (Full Stack)"
+          summary="Sobriety support application"
         />
+        <ProjectCard src={viberr} link="github.com" head="N/A" summary="N/A" />
       </div>
     </section>
   );

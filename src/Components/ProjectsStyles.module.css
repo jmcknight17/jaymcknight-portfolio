@@ -27,6 +27,10 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+
+    p{
+        max-width: 30ch;
+    }
   }
 
   @media (width >= 800px) {

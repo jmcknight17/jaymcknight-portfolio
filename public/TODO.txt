@@ -4,9 +4,9 @@
 - Update text within the home screen X
 - Replace CV in the assets folder X
 - Add more logos for light/dark mode X
-- Change colors in dark and light mode
-- Updater projects to reflect soberstride eg(github link, logo etc etc) 
-- Fill in skills 
+- Updater projects to reflect soberstride eg(github link, logo etc etc) X
+- Fill in skills X
 - Watch form linkup video 
-- Sort cartoon 
+- Sort cartoon X
 - Look further into features 
+- Change colors in dark and light mode
