@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import SoberStride from "../assets/SOBERSTRIDE.png";
-import viberr from "../assets/viberr.png";
+import QuietMail from "../assets/QuietMail.png";
+import Notifly from "../assets/Notifly.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -14,7 +15,16 @@ function Projects() {
           head="SoberStride (Full Stack)"
           summary="Sobriety support application"
         />
-        <ProjectCard src={viberr} link="github.com" head="N/A" summary="N/A" />
+        <ProjectCard
+          src={QuietMail}
+          link="https://github.com/jmcknight17/QuietMail"
+          head="QuietMail (Full Stack)"
+          summary="Email management application" />
+        <ProjectCard
+          src={Notifly}
+          link="https://github.com/jmcknight17/Notifly"
+          head=".NET Worker Service"
+          summary="Flight price tracking service" />
       </div>
     </section>
   );

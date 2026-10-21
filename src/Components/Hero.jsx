@@ -9,7 +9,7 @@ import githubLight from "../assets/github-light.svg";
 import twitterDark from "../assets/twitter-dark.svg";
 import githubDark from "../assets/github-dark.svg";
 import linkedInDark from "../assets/linkedin-dark.svg";
-import CV from "../assets/cv.pdf";
+import CV from "../assets/Jay Mcknight CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -37,26 +37,23 @@ function Hero() {
           Jay <br />
           Mcknight
         </h1>
-        <h2>Junior Software Engineer</h2>
+        <h2>Software Engineer</h2>
         <span>
-          <a href="https://x.com/jmck_j" target="_blank">
-            <img src={twitterIcon} alt="Twitter Icon" />
-          </a>
           <a
             href="https://www.linkedin.com/in/jay-mcknight-253311274/"
             target="_blank"
           >
-            <img src={linkedInIcon} alt="Twitter Icon" />
+            <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
           <a href="https://github.com/jmcknight17" target="_blank">
-            <img src={githubIcon} alt="Twitter Icon" />
+            <img src={githubIcon} alt="GitHub Icon" />
           </a>
         </span>
         <p className={styles.description}>
-          A junior developer with a passion for growing both personal and
-          professional development skills. Eager to apply my problem-solving
-          abilities, honed through two years of industry experience and a
-          Bachelor's degree in Computing.
+          Full-Stack Software Engineer specializing in resilient backend systems, cloud-native architecture, 
+          and modern web applications. Passionate about building high-performance APIs and scalable integrations 
+          using C#/.NET, React, and Azure. First-Class Honours graduate with proven commercial experience delivering 
+          mission-critical software.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
