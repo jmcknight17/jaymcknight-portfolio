@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import SoberStride from "../assets/SOBERSTRIDE.png";
-import QuietMail from "../assets/QuietMail.png";
+import QuietMail from "../assets/Quietmail.png";
 import Notifly from "../assets/Notifly.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
