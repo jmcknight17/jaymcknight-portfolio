@@ -23,7 +23,7 @@ function Projects() {
         <ProjectCard
           src={Notifly}
           link="https://github.com/jmcknight17/Notifly"
-          head=".NET Worker Service"
+          head="Notifly (.NET Worker Service)"
           summary="Flight price tracking service" />
       </div>
     </section>
